@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+     <title> É O RENNER </title>
+     <meta name="description" content="Pagina É O RENNER">
+     <meta name="keywords" content="maluco">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="website icon" type="png" href="https://th.bing.com/th/id/R.90582bff178219fd7afbcdcdbb754a1a?rik=%2fEFGkkJ%2bzCl2LQ&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f04%2fColor-MTV-Logo.jpg&ehk=kGF7ScqSczmap5UuBKe39y8BY%2b6x4ObIof%2ba%2fkOtPdc%3d&risl=&pid=ImgRaw&r=0">
+     
+
+
+     <!--Forma de inserir javascript no html no caso abaixo damos um tipo ao oq vamos inserir dizendo a linguagem, depois chamamos uma function, com nome de aviso, digo que vou passar uma msg e digo como vou passar aquela informação-->
+     <script> type="text/javascript"
+      function Aviso(msg) {
+        alert(msg);
+      }
+    
+    
+      </script>
+
+
+     <!-- a tag link serve para pegar uma referencia formatação extrena, stylesheet diz que é uma formatação de texto -->
+     <!-- meta name utilizado para recomendar pesquisa para acessar pagina-->
+
+  </head>
+  <!-- <style>
+    body {
+      background-color: blue;
+    }
+    h2 {
+      color: aqua;
+      font-size: 50px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
+-->
+    <body>
+
+     <center>
+     <img class="perfil" src="css/cadeado.webp" alt="perfil">
+     <!--EXISTEM TRES FORMAS DE INSERIR IMAGENS 1 NAO DEIXA ALTERAR DIFERENTES IMAGENS SEM SER SIMULTANEAMENTE
+    2 ADICIONAMOS UMA CLASS PARA CADA IMAGEN EDITAMOS NO CSS A FORMATAÇÃO DIGITANDO "." E A CLASS ESCOLHIDA
+    3 UTILIZAMOS O ID PARA DAR UM NOME A IMG, E DEPOIS DAMSO UMA FORTAÇÃO DIGITANDO "#" E O ID DEFINIDO 
+    4 Podemos utilizar mais de um class para cada tag nele, so fazer uma class com o corpo pricipal tendo dimensoese as possiveis formatações e adicionar mais uma class para definir a cor ou coisas que só aquele elemneto possui-->
+     <br>
+     <h2> Perfil  </h2>
+     <br>
+    <form action="" method="post"> <!-- form é utilizado pra enviar o formulario preenchido pelo usuario via get ou post -->
+       <input type="text" class="dados" placeholder="E-mail"> <!-- placeholder é o texto que fica na caixa de texto onde vai ser inserido algo pelo o usuario -->
+       <br>
+       <input type="password" class="dados" placeholder="Senha">
+       <br>
+       <br>
+       <input type="submit" class="btn btn-envio" value="Fazer login">
+       <input onclick="Aviso('Campos limpos com sucesso')"  type="reset" class="btn btn-limpar" value="Limpar campos">
+       <!-- onclick diz oq vai acontecer no navegador quando clicarmos na input inserido, alert é um comando em java script que manda uma msg na tela do usuario-->
+       <br><br>
+       <a href="esqueci-senha.html">Esqueci a minha senha</a> <!-- Tag a serve para criar links, e o href da a referencia de qual pagina o link vai te levar -->
+    </form>
+
+     <br>
+     <br>
+     <img class="logotipo" src="css/R.jpg" alt="logotipo">
+     
+     </body>
+
+     </center>
+
+
+
+
+
+
+</html>
